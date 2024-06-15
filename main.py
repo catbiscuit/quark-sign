@@ -113,11 +113,17 @@ def main():
     message = ''
     for i in range(1, 4):
         cookie = os.environ.get('COOKIE' + str(i))
-        msg = Quark(cookie).do_sign()
-        if not msg:
-            msg = ''
-        if len(msg) > 0:
-            message_all.append(msg)
+        if not cookie:
+            cookie = ''
+
+        if len(cookie) > 0:
+            msg = Quark(cookie).do_sign()
+            if not msg:
+                msg = ''
+            if len(msg) > 0:
+                message_all.append(msg)
+        else:
+            print('COOKIE' + str(i) + ' 为空,不执行签到')
 
         sm = random.randint(15, 43)
         time.sleep(sm)
