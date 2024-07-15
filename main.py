@@ -45,7 +45,7 @@ class Quark:
         url = "https://drive-m.quark.cn/1/clouddrive/capacity/growth/info"
         querystring = {
             "pr": "ucpro",
-            "fr": "pc",
+            "fr": "android",
             "kps": self.param.get('kps'),
             "sign": self.param.get('sign'),
             "vcode": self.param.get('vcode')
