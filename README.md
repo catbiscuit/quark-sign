@@ -1,9 +1,11 @@
 # 如何使用？ 
 ## 一、更新记录
 
-2024年6月15日11:09:46
+2024年7月15日16:08:42
+调整逻辑
 
-第一次更新
+2024年6月15日11:09:46
+初始化
 
 ## 二、使用说明
 
@@ -20,9 +22,9 @@
 
     | Name   | Secret                           |
     | ------ | ------------------------------- |
-    | COOKIE1  | 第一个Cookie |
-    | COOKIE2  | 第二个Cookie |
-    | COOKIE3  | 第三个Cookie |
+    | COOKIE_QUARK1  | 第一个Cookie |
+    | COOKIE_QUARK2  | 第二个Cookie |
+    | COOKIE_QUARK3  | 第三个Cookie |
     | BARK_DEVICEKEY  | IOS应用Bark 推送密钥 |
     | BARK_ICON  | IOS应用Bark 推送的图标 |
 
@@ -31,8 +33,3 @@
 4、关于签到的定时时间
 
 quarksign.yml，调整 \- cron: 20 21 * * *，对应北京时间5:20
-
-5、参考仓库
-
-感谢 https://github.com/mushichou/quark_auto_sign 提供思路
-
