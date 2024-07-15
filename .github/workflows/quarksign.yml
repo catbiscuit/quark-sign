@@ -23,6 +23,3 @@ jobs:
           COOKIE_QUARK3: ${{ secrets.COOKIE_QUARK3 }}
           BARK_DEVICEKEY: ${{ secrets.BARK_DEVICEKEY }}
           BARK_ICON: ${{ secrets.BARK_ICON }}
-          KPS_WG: ${{ secrets.KPS_WG }}
-          SIGN_WG: ${{ secrets.SIGN_WG }}
-          VCODE: ${{ secrets.VCODE }}
