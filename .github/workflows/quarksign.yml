@@ -18,9 +18,9 @@ jobs:
         run: |
           python3 ./main.py
         env:
-          COOKIE1: ${{ secrets.COOKIE1 }}
-          COOKIE2: ${{ secrets.COOKIE2 }}
-          COOKIE3: ${{ secrets.COOKIE3 }}
+          COOKIE_QUARK1: ${{ secrets.COOKIE_QUARK1 }}
+          COOKIE_QUARK2: ${{ secrets.COOKIE_QUARK2 }}
+          COOKIE_QUARK3: ${{ secrets.COOKIE_QUARK3 }}
           BARK_DEVICEKEY: ${{ secrets.BARK_DEVICEKEY }}
           BARK_ICON: ${{ secrets.BARK_ICON }}
           KPS_WG: ${{ secrets.KPS_WG }}
